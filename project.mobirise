@@ -32,7 +32,8 @@
         "#5682a4",
         "#686262",
         "#2b3d68",
-        "#4da92e"
+        "#4da92e",
+        "#149dcc"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -65,7 +66,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i"
       }
     ],
-    "uniqCompNum": 6,
+    "uniqCompNum": 8,
     "versionPublish": "4.11.5",
     "screenshot": "screenshot.png"
   },
@@ -281,13 +282,13 @@
             }
           },
           "_name": "header02",
-          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Link\" name=\"showlinks\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <hr>\n        <input type=\"color\" title=\"Shape & Link Color\" name=\"shapeColor\" value=\"#fb7522\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0d0f1c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"offset-xl-1 col-xl-7 offset-lg-1 col-lg-6 left my-auto\">\n                <h1 class=\"align-left mbr-light pb-5 mbr-fonts-style mbr-white\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-light\"><b>DACP CONSTRUCTION LLC</b></h1>\n                <div class=\"mbr-section-btn mbr-light\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" data-app-selector=\".mbr-light\" mbr-if=\"showlinks\"><a class=\"mbr-section-subtitle mbr-light pb-3 mt-5 mbr-fonts-style mr-5 text-white\" data-app-selector=\".mbr-light\" data-app-placeholder=\"Type Text\">CALL US (985) 530-4005</a></div>\n            </div>\n            <div class=\"col-xl-4 col-lg-5 col-md-12 right\">\n                <h1 class=\"mbr-section-title align-left mbr-light pb-4 mbr-fonts-style mbr-white second px-5 px-md-0\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-light\">Highly experienced developer</h1>\n                <div class=\"mbr-section-btn mbr-light\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" data-app-selector=\".mbr-light\" mbr-if=\"showlinks\">\n                    <a class=\"mbr-section-subtitle mbr-light text-info pb-3 mbr-fonts-style second mr-5\" mbr-if=\"showlinks\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-light\">\n                        About us</a>\n                </div>\n                <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/dacp-header-1080x1080.jpg\" alt=\"DACP Construction General Concerete Contractor Louisiana\" title=\"DACP Construction General Concerete Contractor Louisiana\">\n                <div class=\"shape\">\n                    <p class=\"mbr-text align-left mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        Commercial and Residential Concrete, Mansonry and Stucco</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header2\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Link\" name=\"showlinks\" checked>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <hr>\n        <input type=\"color\" title=\"Shape & Link Color\" name=\"shapeColor\" value=\"#5682a4\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0d0f1c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"offset-xl-1 col-xl-7 offset-lg-1 col-lg-6 left my-auto\">\n                <h1 class=\"align-left mbr-light pb-5 mbr-fonts-style mbr-white\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-light\"><b>DACP CONSTRUCTION LLC</b></h1>\n                <div class=\"mbr-section-btn mbr-light\" mbr-buttons=\"true\" mbr-theme-style=\"display-7\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" data-app-selector=\".mbr-light\" mbr-if=\"showlinks\"><a class=\"mbr-section-subtitle mbr-light pb-3 mt-5 mbr-fonts-style mr-5 text-white\" data-app-selector=\".mbr-light\" data-app-placeholder=\"Type Text\">CALL US (985) 530-4005</a></div>\n            </div>\n            <div class=\"col-xl-4 col-lg-5 col-md-12 right\">\n                <h1 class=\"mbr-section-title align-left mbr-light pb-4 mbr-fonts-style mbr-white second px-5 px-md-0\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-light\">Highly experienced developer</h1>\n                <div class=\"mbr-section-btn mbr-light\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" data-app-selector=\".mbr-light\" mbr-if=\"showlinks\">\n                    <a class=\"mbr-section-subtitle mbr-light text-info pb-3 mbr-fonts-style second mr-5\" mbr-if=\"showlinks\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-light\">\n                        About us</a>\n                </div>\n                <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/dacp-header-1080x1080.jpg\" alt=\"DACP Construction General Concerete Contractor Louisiana\" title=\"DACP Construction General Concerete Contractor Louisiana\">\n                <div class=\"shape\">\n                    <p class=\"mbr-text align-left mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\n                        COMMERCIAL AND RESIDENTIAL CONCRETE, MANSONRY AND STUCCO CONTRACTOR SERVING PARADIS AND SURROUNING AREAS LOUISIANA</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s0MDo5QB6g",
+          "_anchor": "header02-4",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header02-4"
+          "_params": {}
         },
         {
           "alias": false,
@@ -389,11 +390,11 @@
           "_name": "header01",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <hr>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Card Background\" name=\"cardBgColor\" value=\"#5682a4\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#0d0f1c\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#121525\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container-fluid\">\n        <div class=\"row\">\n            <div class=\"col-md-12 col-lg-5 p-0\">\n                <div class=\"wrap h-100\">\n                    <img src=\"@PROJECT_PATH@/assets/images/whatsapp-image-2020-05-27-at-4.08.54-pm-1160x653.jpeg\" alt=\"Structural Concrete\" class=\"mw-100 h-100\" title=\"Structural Concrete\">\n                </div>\n            </div>\n            <div class=\"col-lg-7 col-md-12 right d-flex\">\n                <div class=\"col-md-8 text m-auto\">\n                    <div class=\"wrap pt-5 pb-5\">\n                        <h1 class=\"mbr-section-title mbr-white align-left mbr-regular mbr-fonts-style mb-5\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-fonts-style\">At DACP Construction, LLC we count with a knowledgeable, experienced and hard working team. We strive to provide quality work and the best service to our clients.&nbsp;</h1>\n                        <div class=\"link-wrap\" mbr-if=\"showSubTitle\">\n                            <div class=\"mbr-section-btn mbr-fonts-style\" mbr-buttons=\"true\" mbr-theme-style=\"display-5\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" data-app-selector=\".mbr-fonts-style\"><a class=\"mbr-section-subtitle text-white mbr-light pb-3 mbr-fonts-style d-inline-block\" data-app-selector=\".mbr-fonts-style\" data-app-placeholder=\"Type Text\">\n                                    CALL US (985) 530-4005</a></div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s0MFvWbG0g",
+          "_anchor": "header01-5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header01-5"
+          "_params": {}
         },
         {
           "alias": false,
@@ -716,6 +717,60 @@
           "_isUserblock": true,
           "_sourceTheme": "branchm4",
           "_cid": "rIyXtDHDYk",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": "mobirise4-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "!isAMP",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#fafafa"
+            },
+            "p": {
+              "z-index": "2",
+              "position": "relative"
+            },
+            ".author-box": {
+              "display": "flex",
+              "flex-direction": "row"
+            },
+            ".col-lg-12": {
+              "box-shadow": "0 10px 55px 5px fade(lighten(@secondaryColor, 10%), 35%)",
+              "padding": "1rem 1.5rem"
+            },
+            ".ico1": {
+              "font-size": "2rem"
+            },
+            ".ico2": {
+              "position": "absolute",
+              "bottom": "15%",
+              "right": "1.5rem",
+              "font-size": "8rem",
+              "z-index": "1",
+              "opacity": "0.1"
+            },
+            "H3": {
+              "color": "#5682a4"
+            }
+          },
+          "_name": "extTestimonials5",
+          "_customHTML": "<section class=\"extTestimonials\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Icon2\" name=\"showIcon2\" checked>\n        <input type=\"color\" title=\"Icon2 Color\" name=\"ColorIcon2\" value=\"#101428\" condition=\"showIcon2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#101428\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n    <div class=\"container\">\n        <div class=\"row\">\n\n            <div class=\"col-md-12 col-lg-12\">\n                <span mbr-icon class=\"mbr-iconfont ico1 mobi-mbri-quote-left mobi-mbri\" style=\"color: rgb(86, 130, 164); fill: rgb(86, 130, 164);\"></span>\n                <span mbr-icon class=\"mbr-iconfont  ico2 mobi-mbri-quote-right mobi-mbri\" style=\"color: rgb(239, 239, 239); fill: rgb(239, 239, 239);\"></span>\n                <p class=\"mbr-text mbr-semibold pb-1 align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    \"I have know Danny Cruz since he started. His dedication to his customers and construction knowledge has made a difference in my projects.\"&nbsp;</p>\n                <h3 class=\"mbr-section-subtitle align-left mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\">MS BUILDERS GENERAL CONTRACTOR</h3>\n\n\n            </div>\n\n\n\n        </div>\n\n\n\n    </div>\n\n</section>",
+          "_cid": "s0MQOK173H",
+          "_anchor": "extTestimonials5-6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,

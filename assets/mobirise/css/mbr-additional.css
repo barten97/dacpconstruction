@@ -705,7 +705,7 @@ blockquote {
 .cid-s0MDo5QB6g .shape {
   width: 223px;
   height: 245px;
-  border: 4px solid #fb7522;
+  border: 4px solid #5682a4;
   color: #ffffff;
   display: block;
   position: absolute;
@@ -770,7 +770,7 @@ blockquote {
 }
 .cid-s0MDo5QB6g a {
   display: inline-block;
-  color: #fb7522;
+  color: #5682a4;
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
@@ -1147,6 +1147,41 @@ blockquote {
 }
 .cid-rIyXtDHDYk .title-text {
   color: #ffffff;
+}
+.cid-s0MQOK173H {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: #101428;
+}
+.cid-s0MQOK173H .mbr-text,
+.cid-s0MQOK173H .mbr-section-btn {
+  color: #fafafa;
+}
+.cid-s0MQOK173H p {
+  z-index: 2;
+  position: relative;
+}
+.cid-s0MQOK173H .author-box {
+  display: flex;
+  flex-direction: row;
+}
+.cid-s0MQOK173H .col-lg-12 {
+  box-shadow: 0 10px 55px 5px rgba(118, 155, 183, 0.35);
+  padding: 1rem 1.5rem;
+}
+.cid-s0MQOK173H .ico1 {
+  font-size: 2rem;
+}
+.cid-s0MQOK173H .ico2 {
+  position: absolute;
+  bottom: 15%;
+  right: 1.5rem;
+  font-size: 8rem;
+  z-index: 1;
+  opacity: 0.1;
+}
+.cid-s0MQOK173H H3 {
+  color: #5682a4;
 }
 .cid-rIyXuUMYcZ {
   padding-top: 0px;
